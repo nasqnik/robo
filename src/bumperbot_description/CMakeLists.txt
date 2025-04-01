@@ -11,8 +11,10 @@ find_package(ament_cmake REQUIRED)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   install(
-    DIRECTORY meshes urdf
+    DIRECTORY meshes urdf lauch 
+    # rviz
     DESTINATION share/${PROJECT_NAME}
+
   )
   set(ament_cmake_copyright_FOUND TRUE)
 
