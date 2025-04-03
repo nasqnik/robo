@@ -11,8 +11,7 @@ find_package(ament_cmake REQUIRED)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   install(
-    DIRECTORY meshes urdf lauch 
-    # rviz
+    DIRECTORY meshes urdf launch rviz
     DESTINATION share/${PROJECT_NAME}
 
   )
